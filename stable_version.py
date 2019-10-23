@@ -627,8 +627,7 @@ class Ui_Main_Window(object):
         font.setWeight(75)
         self.lineedit_password.setFont(font)
         self.lineedit_password.setObjectName("lineedit_password")
-        self.lineedit_password.setText("a0535184509")
-        # self.lineedit_password.setPlaceholderText("Enter your mail password")
+        self.lineedit_password.setPlaceholderText("Enter your mail password")
 
         self.lineedit_yourmail = QtWidgets.QLineEdit(self.frame)
         self.lineedit_yourmail.setGeometry(QtCore.QRect(50, 40, 271, 31))
@@ -640,8 +639,7 @@ class Ui_Main_Window(object):
         font.setWeight(75)
         self.lineedit_yourmail.setFont(font)
         self.lineedit_yourmail.setObjectName("lineedit_yourmail")
-        self.lineedit_yourmail.setText("ahmedsayed551991@gmail.com")
-        # self.lineedit_yourmail.setPlaceholderText("Enter your email")
+        self.lineedit_yourmail.setPlaceholderText("Enter your email")
 
         # ============================================= BUTTON ===================================================
         self.button_addmail = QtWidgets.QPushButton(self.frame)
